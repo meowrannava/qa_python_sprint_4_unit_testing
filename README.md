@@ -1,5 +1,12 @@
 # Тестовое покрытие для класса BooksCollector
 
+Upd. после ревью:
+
+1. Фикстура вынесена в conftest.py
+2. Исправлен тест test_get_book_genre_valid_genre_success_genre_output: добавлена ссылка на словарь
+3. Исправлен тест test_get_books_with_specific_genre_valid_request_specific_genre_output: вывод книг исключительно по жанру
+4. Исправлен тест test_get_list_of_favorites_books_added_existing_book_success: проверка отображения списка Избранного
+
 Какие тестовые методы были добавлены:
 
 1. Тесты для add_new_book для добавления книг:
